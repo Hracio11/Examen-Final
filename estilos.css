@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
+
+header{
+    margin: 0 20px 0 20px;
+}
+.menu{
+    background-color: darkslategrey;
+}
+.Horacio{
+    color: white;
+    font-size: 30px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    text-align: center;
+}
+button{
+    background-color: rgb(255, 255, 255);
+    margin-left: 10px;
+}
+H1,h5{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+section{
+    margin-top: 20px;
+}
+.cuatro{
+    width: 80px;
+    font-size: 20px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    margin-block: 40px;
+}
+.uno,.dos,.tres{
+    width: 30%;
+    bottom: unset;
+    font-size: 20px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+.yo{
+    margin-block: 50px;
+    color: white;
+}
+.relleno{
+    color: white;
+}
+.Cuerpo2{
+    background-color: darkslategrey;
+}
+.botones{
+    margin-block: 10px;
+}
+.imagen{
+    margin-left: 50px;
+}
+
+@media(max-width: 600px){
+
+    button{
+        background-color: darkorange;
+        display: block;
+        margin: 0px auto;
+        margin-block: 5px;
+    }
+    .menu, .Cuerpo2{
+        background-color: rgb(77, 118, 255);
+    }
+    .yo{
+        font-size: 60px;
+        text-align: center;
+    }
+    .relleno{
+        font-size: 20px;
+        text-align: center;
+    }
+    .cuatro{
+        width: 100%;
+    }
+    .imagen{
+        width: 70%;
+        display: block;
+        margin: 0px auto;
+    }
+}
